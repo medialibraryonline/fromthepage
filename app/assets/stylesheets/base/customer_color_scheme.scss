@@ -26,7 +26,7 @@ $fgSelected:                #FFF;
 $bgSelected:                #655;
 
 //this is the color of all links
-$fgLink:                    #900;
+$fgLink:                    #932106;
 
 //the color when a link is hovered on
 $fgHover:                   #D50;
@@ -35,14 +35,14 @@ $fgHover:                   #D50;
 $bgHover:                   lighten($bgSelected, 47);
 
 //heading colors - h1 - h5
-$fgH1:                      #655;
-$fgH2:                      darken($fgH1, 6%);
-$fgH3:                      darken($fgH1, 12%);
-$fgH4:                      darken($fgH1, 18%);
-$fgH5:                      darken($fgH1, 24%);
+$fgH1:                      #932106;
+$fgH2:                      darken($fgH1, 0%);
+$fgH3:                      darken($fgH1, 0%);
+$fgH4:                      darken($fgH1, 0%);
+$fgH5:                      darken($fgH1, 0%);
 
 //this sets the color of the header
-$themeLight:                #EDB;
+$themeLight:                #FFF;
 
 //this sets the color of the footer
 $themeDark:                 #433;
@@ -61,10 +61,10 @@ $borderColor:               mix(#000, $bodyBg, 15);
 $headerHeight:              80px;
 
 //the color of lettering on the header
-$headerFg:                  $themeDark;
+$headerFg:                  #932106;
 
 //header background color
-$headerBg:                  $themeLight;
+$headerBg:                  #F2D8D8;
 
 //FOOTER INFO
 $footerHeight:              220px;
@@ -73,4 +73,4 @@ $footerHeight:              220px;
 $footerFg:                  mix(#FFF, $themeDark, 75);
 
 //footer background color
-$footerBg:                  $themeDark;
+$footerBg:                  #2B2B2F;
